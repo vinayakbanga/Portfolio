@@ -159,21 +159,21 @@
     <h1 class="heading">Contact</h1>
     <p>Feel free to contact me</p>
     <div class="contact-form">
-    <form>
+    <form action="mailto:vinayakbanga22@gmail.com" method="POST">
       <label for="Name" class="form-label">Your Name</label>  
-      <input type="text" class="form-control" placeholder="Your Name">
+      <input type="text" class="form-control" placeholder="Your Name" name="Name" required>
 
       <label for="Email" class="form-label">Your Email</label>  
-      <input type="email" class="form-control" placeholder="youremail@xyz.com">
+      <input type="email" class="form-control" placeholder="youremail@xyz.com" name="Email" required>
 
       <label for="Subject" class="form-label">Subject</label>  
-      <input type="text" class="form-control" placeholder="Subject">
+      <input type="text" class="form-control" placeholder="Subject" name="Subject" required>
 
       <label for="Message" class="form-label">Your Message</label>  <br>
 
       <textarea name="Message" rows="5" placeholder="Enter your Message"></textarea>
 
-      <button class="grow_skew_forward">Submit</button>
+      <button type="submit" class="grow_skew_forward">Submit</button>
 
         
     </form>

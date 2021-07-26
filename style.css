@@ -226,9 +226,21 @@ button {
 .projects{
     
     background-color:rgba(66, 63, 62, 0.3);
-
+    
+    
+    
     
 }
+.projects::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .projects {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
 .cardsection{
     
     margin: 3%;
@@ -256,8 +268,10 @@ button {
     display: flex;
     
     flex-direction: column;
-    padding: 5%;
+    padding: 4%;
     width: 70%;
+
+    
 
     
     
@@ -280,6 +294,7 @@ textarea{
 .contact > form{
     border: solid;
 }
+
 
 
 
