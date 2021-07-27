@@ -46,6 +46,9 @@ canvas.particles-js-canvas-el{
     
 
 }
+.navbar{
+    padding: 1%;
+}
 .container-fluid{
 
     margin: 2%;
@@ -66,6 +69,7 @@ canvas.particles-js-canvas-el{
 .nav-item:hover{
     border-bottom:solid white;
     transition-delay: 0.1s;
+    
 }
 h1,h2,h3,h4,h5,h6{
     overflow-y: hidden;
@@ -76,6 +80,8 @@ h1{
 
     
 }
+
+
 
 .heading::after{
     content: " ";
@@ -208,19 +214,23 @@ button {
 .skills{
     
     margin: 5%;
-    height: 100vh
+    height: 150%;
+    overflow-y: hidden;
 
 }
 
 .frontend,.backend{
     display: flex;
-    justify-content: space-evenly;
-    align-content: space-between;
+    justify-content: space-around;
+    /* align-content: space-between; */
     flex-wrap: wrap;
     
 }
 .frontend{
-    padding: 10% 0;
+    padding: 5% 0;
+}
+.tools h2{
+    padding: 2%;
 }
 
 .projects{
@@ -254,12 +264,13 @@ button {
 
 }
 .card{
-    width: 18rem;
+    width: 15rem;
     height: auto;
     background: transparent;
     margin: 2% 0;
     border: solid rgba(66, 63, 62) 5px;
     border-radius: 10px;
+    
     
 }
 .contact-form{
@@ -294,7 +305,42 @@ textarea{
 .contact > form{
     border: solid;
 }
+footer{
+    
+    background-color: rgba(66, 63, 62, 0.3);
+    
+}
 
+.icons a{
+    padding-right: 5%;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #eee;
+    transition: all 0.4s;
+    
+        
+    
+}
+.icons{
+
+    padding: 2%;
+}
+.icons .logo:hover{
+    transform: scale(1.5);
+}
+.fa-facebook-f:hover{
+color: #4267B2;
+}
+
+.fa-instagram:hover{
+    color:  #E1306C;
+}
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+.fa-envelope:hover{
+    color: turquoise;
+}
 
 
 
@@ -333,6 +379,7 @@ textarea{
         
         text-align: center;
         
+        
     }
     .myimg{
         height: 50%;
@@ -356,6 +403,13 @@ textarea{
     }
     .logo-img{
         width: 160px;
+    }
+    .card{
+        width: 18rem;
+    }
+    .txt{
+        margin-top: 10rem;
+        font-size: 1.5rem;
     }
     
 
