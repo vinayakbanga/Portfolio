@@ -11,16 +11,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/18d364b981.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-     
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="particles-js">
    <header>
-     <div class="container-fluid">
+     
         <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark  sticky-top ">
+            <nav class="navbar navbar-expand-lg navbar-dark  fixed-top ">
                 <a class="navbar-brand" href="">Portfolio</a>
                 <button class="navbar-toggler" style="border: none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,15 +51,16 @@
                 </ul>
                 </div>
             </nav>
-            </div>
+            
     </header>
     <section class="main">
         <!-- <div class="row"> -->
             <!-- <div class="col-md-6"> -->
         <div class="name-info" >
             <h1>Vinayak Banga</h1>
-            <div data-aos="flip-left"><h4>Frontend developer</h4> </div>
-            <button class="grow_skew_forward" type="submit"  onclick="window.location.href='#about'" >About</button>
+            <div><h4>Frontend developer</h4> </div>
+            <button class="grow_skew_forward about-btn" type="submit"   >About</button>
+            <!-- onclick="window.location.href='#about'" -->
             <div class="social-icons">
                 <div class="icons">
                     <a href="https://www.facebook.com/vinayak.banga" data-text="Facebook">
@@ -141,7 +146,7 @@
 
 
         
-        <div class="card" >
+        <div class="card " data-aos="flip-left" >
 
             <img src="./images/Screenshot (916).png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -270,10 +275,10 @@
   <script type="text/javascript" src="./Particle/particles.js"></script>
   <script type="text/javascript" src="./Particle/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+  
+  <!-- <script>
     AOS.init();
-  </script>
+  </script> -->
 
 </body>
 </html>

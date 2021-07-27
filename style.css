@@ -71,6 +71,11 @@ canvas.particles-js-canvas-el{
     transition-delay: 0.1s;
     
 }
+.fixed-top{
+    background-color: rgba(0, 0, 0, 0.98);
+    
+    width: 98.5%;
+}
 h1,h2,h3,h4,h5,h6{
     overflow-y: hidden;
 }
